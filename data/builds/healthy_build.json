@@ -1,0 +1,11 @@
+{
+  "build_id": "healthy_build",
+  "commit_sha": "a3f54f4a8b02c7a72f1be2fd1060ad8d9e733111",
+  "timestamp": "2026-03-20T10:00:00Z",
+  "validation_suites": {"passed": 142, "failed": 1, "coverage_pct": 92.1},
+  "field_anomaly_count": 1,
+  "open_blocker_issues": 0,
+  "flaky_subsystem_signals": ["none"],
+  "missing_validation_areas": [],
+  "ci_duration_minutes": 28.5
+}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h2>Build Dashboard</h2>
+  <table>
+    <thead><tr><th>Build</th><th>Commit</th><th>Latest Risk</th><th>Confidence</th></tr></thead>
+    <tbody>
+    {% for row in rows %}
+      <tr>
+        <td><a href="/build/{{ row.build.build_id }}">{{ row.build.build_id }}</a></td>
+        <td>{{ row.build.commit_sha[:8] }}</td>
+        <td>{{ row.report.build_risk_level if row.report else "Not analyzed" }}</td>
+        <td>{{ row.report.build_confidence_score if row.report else "-" }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

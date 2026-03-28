@@ -1,0 +1,11 @@
+{
+  "build_id": "blocked_build",
+  "commit_sha": "ccd4f07b5ad8ecf0197ef56673ed9caf1b8c3333",
+  "timestamp": "2026-03-20T12:45:00Z",
+  "validation_suites": {"passed": 90, "failed": 11, "coverage_pct": 68.2},
+  "field_anomaly_count": 24,
+  "open_blocker_issues": 3,
+  "flaky_subsystem_signals": ["payments", "auth", "queue-worker"],
+  "missing_validation_areas": ["disaster-recovery", "schema-migration", "load-test"],
+  "ci_duration_minutes": 97.4
+}

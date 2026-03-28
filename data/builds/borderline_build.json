@@ -1,0 +1,11 @@
+{
+  "build_id": "borderline_build",
+  "commit_sha": "b52b753e3d00ea141f4efaeff56bfdf47dca2222",
+  "timestamp": "2026-03-20T11:30:00Z",
+  "validation_suites": {"passed": 118, "failed": 4, "coverage_pct": 84.3},
+  "field_anomaly_count": 8,
+  "open_blocker_issues": 0,
+  "flaky_subsystem_signals": ["notifications", "search"],
+  "missing_validation_areas": ["rollback-path"],
+  "ci_duration_minutes": 72.0
+}

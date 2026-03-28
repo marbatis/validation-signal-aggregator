@@ -1,0 +1,7 @@
+body { font-family: "IBM Plex Sans", sans-serif; margin: 0; background: #f5f8ff; color: #202532; }
+header { background: #003049; color: #fff; padding: 1rem 1.2rem; }
+header a { color: #fff; text-decoration: none; }
+main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
+.card { background: #fff; border-radius: 10px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #ddd; padding: .5rem; text-align: left; }
